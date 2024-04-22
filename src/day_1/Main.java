@@ -1,7 +1,5 @@
 package day_1;
 
-import java.sql.SQLOutput;
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {

@@ -44,5 +44,13 @@ public class Pet {
         this.age = age;
     }
 
-
+    @Override
+    public String toString() {
+        return "Pet{" +
+                "name='" + name + '\'' +
+                ", type=" + type.toString().toLowerCase() +
+                ", age=" + age +
+                ", owner=" + person.getFirstName()+ " "+person.getLastName()+
+                '}';
+    }
 }

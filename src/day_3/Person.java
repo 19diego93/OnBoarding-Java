@@ -86,18 +86,18 @@ public class Person {
                 marriedPerson(married) +" "+petsString(pets)+". }";
     }
 
-    static String marriedPerson(boolean status) {
+    public static String marriedPerson(boolean status) {
         if (status) {
             return "I'm married.";
         } else {
             return "I'm not married.";
         }
     }
-    static String petsString(Set<Pet> mascotas){
+    public static String petsString(Set<Pet> mascotas){
         if(0 != mascotas.size()){
             String aux ="";
             for (Pet pet : mascotas){
-    aux += " * "+pet.getName().toString()+" it is my "+pet.getType().toString().toLowerCase();
+    aux += " * "+pet.getName()+" it is my "+pet.getType().toString().toLowerCase();
             }
     return "I have pets:"+ aux;
         }else{ return "I don't have pets!";}

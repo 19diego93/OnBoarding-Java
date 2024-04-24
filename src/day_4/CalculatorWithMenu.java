@@ -10,7 +10,7 @@ public class CalculatorWithMenu implements CalculatorMenu {
     @Override
     public void displayMenu() {
         System.out.println("""
-                Select one option: 
+                Select one option:
                 1 = Addition,
                 2 = Subtraction,
                 3 = Multiplication,

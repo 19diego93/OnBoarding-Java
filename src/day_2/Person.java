@@ -84,10 +84,12 @@ public class Person {
     //metodo propio
     @Override
     public String toString() {
-        return "Persona{" +
-                "Hello my name is " + firstName + " " + lastName +
+        return "Hello my name is " + firstName + " " + lastName +
                 ". I'm " + age + " and I'm " + height + " cm tall. " +
-                marriedPerson(married) +" " +petsString(petsNames);
+                marriedPerson(married) +" " +petsString(petsNames)+".";
+    }
+    public void presentation(){
+        System.out.println(this);
     }
 
     static String marriedPerson(boolean status) {

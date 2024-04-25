@@ -1,7 +1,5 @@
 package day_1;
 
-import java.sql.SQLOutput;
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
@@ -52,7 +50,7 @@ public class Main {
         //bowlingAlley();
 
         //12
-        bowlingAlleyVip();
+        //bowlingAlleyVip();
     }
 
     //
@@ -207,7 +205,7 @@ public class Main {
         System.out.println("Result: " + (a / b));
     }
 
-    //
+    //12
     static void bowlingAlleyVip() {
         int maxCap = 500;
         int freeSpace = 500;
@@ -217,8 +215,6 @@ public class Main {
         int age = 0;
         String id = "";
         String pass;
-
-
         int bank = 0;
         int cashIn;
         int option;
@@ -226,7 +222,7 @@ public class Main {
 
         do {
             System.out.println("Person data entry = 1 - Available capacity = 2 - Money raised = 3 - Log out system = 4");
-            System.out.println("Choose one option (0-4)");
+            System.out.println("Choose one option (1-4)");
             option = Integer.parseInt(bowllingSystem.next());
 
             switch (option) {
@@ -247,7 +243,7 @@ public class Main {
                         if ("vip".equals(pass)) {
                             System.out.println("free enter");
                             if (freeSpace > 0) {
-                                freeSpace --;
+                                freeSpace--;
                                 System.out.println("Welcome " + name);
                             } else {
                                 System.out.println("Add to wait list");
@@ -262,7 +258,7 @@ public class Main {
                                     System.out.println("Applying discount of 50%");
                                     bank += vipEntrance / 2;
                                     if (freeSpace > 0) {
-                                        freeSpace --;
+                                        freeSpace--;
                                         System.out.println("Welcome " + name);
                                     } else {
                                         System.out.println(name + " added to wait list");
@@ -272,7 +268,7 @@ public class Main {
                                     System.out.println("Applying discount of 50%");
                                     bank = entrance / 2;
                                     if (freeSpace > 0) {
-                                        freeSpace --;
+                                        freeSpace--;
                                         System.out.println("Welcome " + name);
                                     } else {
                                         System.out.println("Add to wait list");
@@ -287,26 +283,28 @@ public class Main {
                                 System.out.println("Do you want to buy vip or normal pass");
                                 bowllingSystem.nextLine();
                                 if (bowllingSystem.next().toLowerCase().equals("vip")) {
-                                    System.out.println("Applying discount of 50%");
+                                    System.out.println("vip sold");
                                     bank += vipEntrance;
                                     if (freeSpace > 0) {
-                                        freeSpace --;
+                                        freeSpace--;
                                         System.out.println("Welcome " + name);
                                     } else {
                                         System.out.println(name + " added to wait list");
                                     }
 
                                 } else if (bowllingSystem.next().toLowerCase().equals("normal")) {
-                                    System.out.println("Applying discount of 50%");
+                                    System.out.println("normal sold");
                                     bank = entrance;
                                     if (freeSpace > 0) {
-                                        freeSpace --;
+                                        freeSpace--;
                                         System.out.println("Welcome " + name);
                                     } else {
                                         System.out.println("Add to wait list");
                                     }
                                 }
-                            }else{System.out.println("Good bye " + name + "!");}
+                            } else {
+                                System.out.println("Good bye " + name + "!");
+                            }
                         }
 
                     } else {

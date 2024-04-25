@@ -6,7 +6,6 @@ CalculatorWithMenu calculator = new CalculatorWithMenu();
 boolean exit;
 do {
     calculator.displayMenu();
-    calculator.optionSelect();
     exit = calculator.optionSelect();
 }while (exit);
     }

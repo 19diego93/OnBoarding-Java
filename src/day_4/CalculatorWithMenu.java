@@ -10,6 +10,7 @@ public class CalculatorWithMenu implements CalculatorMenu {
     @Override
     public void displayMenu() {
         System.out.println("""
+                Calculator ON !!
                 Select one option:
                 1 = Addition,
                 2 = Subtraction,
@@ -28,7 +29,7 @@ public class CalculatorWithMenu implements CalculatorMenu {
         option = scanner.nextInt();
         switch(option){
             case 0:
-                System.out.println("Loggin out system..");
+                System.out.println("Loggin out system..(calculator OFF!!)");
                 return false;
             case 1:
                 System.out.println("first number");

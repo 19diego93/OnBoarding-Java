@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="83aa2ac2-2699-4974-adb0-123254c85c2b" name="Changes" comment="calculator y su interfaz">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day_4/CalculatorWithMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_4/CalculatorWithMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day_3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day_3/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_3/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

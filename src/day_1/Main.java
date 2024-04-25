@@ -205,7 +205,7 @@ public class Main {
         System.out.println("Result: " + (a / b));
     }
 
-    //
+    //12
     static void bowlingAlleyVip() {
         int maxCap = 500;
         int freeSpace = 500;
@@ -224,7 +224,7 @@ public class Main {
 
         do {
             System.out.println("Person data entry = 1 - Available capacity = 2 - Money raised = 3 - Log out system = 4");
-            System.out.println("Choose one option (0-4)");
+            System.out.println("Choose one option (1-4)");
             option = Integer.parseInt(bowllingSystem.next());
 
             switch (option) {
@@ -285,7 +285,7 @@ public class Main {
                                 System.out.println("Do you want to buy vip or normal pass");
                                 bowllingSystem.nextLine();
                                 if (bowllingSystem.next().toLowerCase().equals("vip")) {
-                                    System.out.println("Applying discount of 50%");
+                                    System.out.println("vip sold");
                                     bank += vipEntrance;
                                     if (freeSpace > 0) {
                                         freeSpace --;
@@ -295,7 +295,7 @@ public class Main {
                                     }
 
                                 } else if (bowllingSystem.next().toLowerCase().equals("normal")) {
-                                    System.out.println("Applying discount of 50%");
+                                    System.out.println("normal sold");
                                     bank = entrance;
                                     if (freeSpace > 0) {
                                         freeSpace --;

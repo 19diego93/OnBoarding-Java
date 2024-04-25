@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83aa2ac2-2699-4974-adb0-123254c85c2b" name="Changes" comment="">
+    <list default="true" id="83aa2ac2-2699-4974-adb0-123254c85c2b" name="Changes" comment="calculator y su interfaz">
+      <change afterPath="$PROJECT_DIR$/src/day_3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_3/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_3/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_4/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_4/CalculatorMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_4/CalculatorOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_4/CalculatorWithMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +24,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,25 +45,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day_2.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.day_3.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;day__3&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.day_2.Main.executor": "Run",
+    "Application.day_3.Main.executor": "Run",
+    "Application.day_4.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Merging day__3",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="day_3" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\CursosProgramacion\MindHub\workshop\modulo3\Sprint 0\src" />
-      <recent name="C:\CursosProgramacion\MindHub\workshop\modulo3\Sprint 0\src\day_3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="day_3" />
@@ -89,6 +95,15 @@
       <option name="presentableId" value="Default" />
       <updated>1713465514086</updated>
     </task>
+    <task id="LOCAL-00001" summary="calculator y su interfaz">
+      <option name="closed" value="true" />
+      <created>1713911330726</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713911330726</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +116,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="calculator y su interfaz" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculator y su interfaz" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

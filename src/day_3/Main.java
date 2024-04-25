@@ -15,11 +15,10 @@ public class Main {
         person2.addPet(pet3);
 
 
-        System.out.println(person1);
-       /* System.out.println(person2);
-        System.out.println(pet1.getPerson());
-        System.out.println(pet3.getPerson());*/
-        System.out.println(pet1);
+       person1.presentation();
+
+       person2.presentation();
+
 
     }
 }
